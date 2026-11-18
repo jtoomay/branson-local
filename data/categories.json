@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "restaurants",
+    "name": "Restaurants",
+    "headline": "Where Branson eats",
+    "description": "Award-winning barbecue, century-old cafés, wood-fired pubs and lakeside dining — all locally owned.",
+    "seo_title": "Best Local Restaurants in Branson, MO | Where to Eat & Dine",
+    "seo_description": "Find the best locally owned restaurants in Branson, Missouri — BBQ, pizza, Mexican, diners, cafés, breweries and more, with addresses, phone numbers and directions."
+  },
+  {
+    "slug": "hotels",
+    "name": "Hotels & Lodging",
+    "headline": "Where to stay in Branson",
+    "description": "Hotels, lakefront resorts, inns, nightly condos and RV parks for every kind of Branson getaway.",
+    "seo_title": "Hotels & Where to Stay in Branson, MO | Local Lodging",
+    "seo_description": "Locally owned hotels, inns, resorts, condos and RV parks in Branson, Missouri and Table Rock Lake — compare and book direct."
+  },
+  {
+    "slug": "shows",
+    "name": "Branson Shows",
+    "headline": "The Live Entertainment Capital",
+    "description": "Theatres, tribute acts, gospel, comedy and family shows on 76 Country Boulevard and beyond.",
+    "seo_title": "Branson Shows & Theatres | Live Entertainment in Branson, MO",
+    "seo_description": "Browse live shows and theatres in Branson, Missouri — The Duttons, Clay Cooper, Jim Stafford, Shepherd of the Hills and more. Get tickets and directions."
+  },
+  {
+    "slug": "shopping",
+    "name": "Shopping",
+    "headline": "Shop local, shop Branson",
+    "description": "Downtown classics, Branson Landing boutiques, antiques, galleries and Christmas shops.",
+    "seo_title": "Shopping in Branson, MO | Local Shops, Boutiques & Antiques",
+    "seo_description": "Discover locally owned shops in Branson, Missouri — Dick's 5 & 10, Mulberry Mill, Kringle's, antiques, galleries and gift shops."
+  },
+  {
+    "slug": "specialty-shops",
+    "name": "Specialty Shops",
+    "headline": "One-of-a-kind finds",
+    "description": "Bakeries, spas, wineries, sweets, formalwear, craft makers and services you won't find anywhere else.",
+    "seo_title": "Specialty Shops in Branson, MO | Bakeries, Spas, Gifts & More",
+    "seo_description": "Unique locally owned specialty shops in Branson, Missouri — bakeries, day spas, wineries, sweets, jewelry, formalwear and handmade goods."
+  },
+  {
+    "slug": "things-to-do",
+    "name": "Things To Do",
+    "headline": "Make a day of it",
+    "description": "Escape rooms, distilleries, marinas, ghost tours, e-bikes, bowling and nightlife.",
+    "seo_title": "Things to Do in Branson, MO | Attractions, Tours & Nightlife",
+    "seo_description": "The best local things to do in Branson, Missouri — escape rooms, marinas on Table Rock Lake, distilleries, ghost tours, e-bike rentals and nightlife."
+  },
+  {
+    "slug": "fishing-boating",
+    "name": "Fishing & Boating",
+    "headline": "Life on the lakes",
+    "description": "Marinas, boat rentals and guides on Table Rock Lake and Lake Taneycomo.",
+    "seo_title": "Fishing & Boating in Branson, MO | Table Rock Lake Marinas",
+    "seo_description": "Boat rentals, marinas and fishing on Table Rock Lake and Lake Taneycomo near Branson, Missouri."
+  },
+  {
+    "slug": "wedding-venues",
+    "name": "Wedding Venues",
+    "headline": "Say “I do” in the Ozarks",
+    "description": "Venues, formalwear, florals and catering for Branson weddings and events.",
+    "seo_title": "Wedding Venues in Branson, MO | Ozarks Weddings & Events",
+    "seo_description": "Locally owned wedding venues, formalwear, catering and event services in Branson, Missouri."
+  },
+  {
+    "slug": "day-trips",
+    "name": "Day Trips",
+    "headline": "Beyond Branson",
+    "description": "Easy drives from Branson — Eureka Springs, Table Rock Lake towns and Ozark hideaways.",
+    "seo_title": "Day Trips from Branson, MO | Nearby Ozarks Destinations",
+    "seo_description": "Plan a day trip from Branson, Missouri — nearby Ozarks towns, attractions and locally owned stops worth the drive."
+  },
+  {
+    "slug": "veteran-services",
+    "name": "Veteran Services",
+    "headline": "Serving those who served",
+    "description": "Local resources and businesses supporting veterans in the Branson area.",
+    "seo_title": "Veteran Services in Branson, MO | Local Veteran Resources",
+    "seo_description": "Veteran services, resources and veteran-supporting local businesses in Branson, Missouri."
+  }
+]

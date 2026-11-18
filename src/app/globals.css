@@ -1,26 +1,305 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+ * Branson Local Businesses — "Ozarks lakeside" identity.
+ *
+ * Lake:    deep Table Rock water, evolved from the original brand teal #155D6B.
+ * Mist:    the cool morning haze over Lake Taneycomo — the page ground (not cream).
+ * Redbud:  the Eastern redbud that blooms across the Ozarks every spring — the single accent.
+ * Sun:     late light on the bluffs, used only on dark lake surfaces.
+ * Moss:    limestone-bluff green, for quiet secondary marks.
+ */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@theme {
+  --color-lake-950: #082a31;
+  --color-lake-900: #0d3b44;
+  --color-lake-800: #114a55;
+  --color-lake-700: #155d6b;
+  --color-lake-600: #1c7080;
+  --color-lake-500: #348795;
+  --color-lake-300: #8fbcc2;
+  --color-lake-200: #bcd8da;
+  --color-lake-100: #dcebea;
+  --color-lake-50: #ecf4f3;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --color-mist: #eef3f1;
+  --color-paper: #fafcfb;
+  --color-ink: #12292d;
+  --color-ink-soft: #3d5357;
+  --color-ink-faint: #5d7276;
+  --color-line: #d2dedb;
+  --color-line-strong: #b2c5c1;
+
+  --color-redbud: #a3305c;
+  --color-redbud-deep: #84234a;
+  --color-redbud-soft: #f5e2e9;
+  --color-sun: #f0b54a;
+  --color-sun-soft: #fbe9c4;
+  --color-moss: #4c6b4d;
+  --color-moss-soft: #dfe8dc;
+
+  --font-display: var(--font-young-serif), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-schibsted), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-tile: 1.75rem;
+  --radius-card: 1.125rem;
+
+  --shadow-lift: 0 1px 0 rgb(13 59 68 / 0.04), 0 10px 30px -12px rgb(13 59 68 / 0.22);
+  --shadow-float: 0 24px 60px -24px rgb(8 42 49 / 0.45);
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-fade-in: fade-in 700ms var(--ease-out-quint) both;
+  --animate-rise: rise 900ms var(--ease-out-quint) both;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  :root {
+    color-scheme: light;
+    --header-h: 4.25rem;
+    --bottom-bar-h: 0px;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: calc(var(--header-h) + 1rem);
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: var(--color-mist);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-sun-soft);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-redbud);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  .on-dark :focus-visible {
+    outline-color: var(--color-sun);
+  }
+
+  @media (max-width: 1023px) {
+    :root {
+      --bottom-bar-h: 4.5rem;
+    }
+  }
+}
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: 78rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) {
+    .wrap {
+      padding-inline: 1.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .wrap {
+      padding-inline: 2.5rem;
+    }
+  }
+
+  /* Display type scale (roughly a perfect fourth) */
+  .type-hero {
+    font-family: var(--font-display);
+    font-size: clamp(2.6rem, 1.2rem + 6.2vw, 6.25rem);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+  }
+  .type-display {
+    font-family: var(--font-display);
+    font-size: clamp(2.1rem, 1.3rem + 3.4vw, 4rem);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+  }
+  .type-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 1.15rem + 1.6vw, 2.4rem);
+    line-height: 1.12;
+  }
+  .type-lede {
+    font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem);
+    line-height: 1.55;
+    color: var(--color-ink-soft);
+    max-width: 38em;
+  }
+
+  /* Buttons: pill for actions, all ≥ 44px tall */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 2.875rem;
+    padding: 0.7rem 1.35rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.98rem;
+    line-height: 1.1;
+    white-space: nowrap;
+    transition:
+      background-color 180ms ease,
+      color 180ms ease,
+      border-color 180ms ease,
+      transform 180ms var(--ease-out-quint),
+      box-shadow 180ms ease;
+  }
+  .btn:active {
+    transform: translateY(1px) scale(0.99);
+  }
+  .btn-primary {
+    background: var(--color-lake-700);
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background: var(--color-lake-800);
+  }
+  .btn-accent {
+    background: var(--color-redbud);
+    color: #fff;
+  }
+  .btn-accent:hover {
+    background: var(--color-redbud-deep);
+  }
+  .btn-sun {
+    background: var(--color-sun);
+    color: var(--color-lake-950);
+  }
+  .btn-sun:hover {
+    background: #f6c56b;
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--color-ink);
+    box-shadow: inset 0 0 0 1.5px var(--color-line-strong);
+  }
+  .btn-ghost:hover {
+    box-shadow: inset 0 0 0 1.5px var(--color-lake-700);
+    color: var(--color-lake-800);
+    background: var(--color-paper);
+  }
+  .btn-ghost-light {
+    background: transparent;
+    color: #fff;
+    box-shadow: inset 0 0 0 1.5px rgb(255 255 255 / 0.4);
+  }
+  .btn-ghost-light:hover {
+    box-shadow: inset 0 0 0 1.5px #fff;
+    background: rgb(255 255 255 / 0.06);
+  }
+
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+    text-decoration-color: color-mix(in oklab, currentColor 40%, transparent);
+    transition: text-decoration-color 160ms ease;
+  }
+  .link-underline:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border-radius: 0.875rem;
+    background: var(--color-paper);
+    border: 1.5px solid var(--color-line-strong);
+    padding: 0.7rem 0.95rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition:
+      border-color 160ms ease,
+      box-shadow 160ms ease;
+  }
+  .field::placeholder {
+    color: var(--color-ink-faint);
+  }
+  .field:hover {
+    border-color: var(--color-lake-500);
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-lake-700);
+    box-shadow: 0 0 0 4px rgb(21 93 107 / 0.16);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-redbud);
+  }
+
+  /* Prose for long business descriptions */
+  .prose-local p + p {
+    margin-top: 1em;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -1,0 +1,261 @@
+{
+  "_meta": {
+    "source": "https://www.bransonlocalbusinesses.com/",
+    "scraped_at": "2026-11-17",
+    "method": "Rendered DOM of desktop variant (xr_mvp_1) via browser; mobile duplicates (xr_mvp_2) ignored",
+    "image_base": "https://www.bransonlocalbusinesses.com/index_htm_files/"
+  },
+  "global": {
+    "site_name": "Branson Local Businesses",
+    "phone": "816-419-0957",
+    "phone_href": "tel:8164190957",
+    "header_cta": "CALL 816-419-0957",
+    "google_review_url": "https://g.page/r/CRrqz3N5lLllEBM/review",
+    "google_review_cta": "LEAVE A REVIEW!",
+    "facebook_cta": "LIKE US!",
+    "social": {
+      "facebook": "https://www.facebook.com/bransonlocalbusinesses/",
+      "instagram": "https://www.instagram.com/bransonlocalbusinesses/"
+    },
+    "ticket_links": {
+      "shows": {"url": "https://bransonlocalbusinesses.i.travel/shows/", "label": "CLICK HERE TO BUY TICKETS TO OVER 100 SHOWS IN BRANSON, MO", "button_image": "https://www.bransonlocalbusinesses.com/index_htm_files/57563.png", "page": "/shows-in-branson.htm"},
+      "attractions": {"url": "https://bransonlocalbusinesses.i.travel/attractions/", "label": "CLICK HERE TO BUY TICKETS TO OVER 30 ATTRACTIONS IN BRANSON, MO", "button_image": "https://www.bransonlocalbusinesses.com/index_htm_files/57773.png", "page": "/things-to-do.htm"}
+    },
+    "youtube_videos": [
+      {"url": "https://www.youtube.com/watch?v=9LEcS1KAUO8", "label": "GHOST TOUR PRE-SHOW VIDEO", "page": "/things-to-do.htm", "context": "The Haunted Taxi Ghost Tour listing (link button, not an embed)"}
+    ],
+    "nav": [
+      {"label": "Home", "href": "/"},
+      {"label": "Advertise", "href": "/advertise.htm"},
+      {"label": "Hotels", "href": "/hotels.htm"},
+      {"label": "Branson Shows", "href": "/shows-in-branson.htm"},
+      {"label": "Shopping", "href": "/branson-shops.htm"},
+      {"label": "Restaurants", "href": "/restaurants.htm"},
+      {"label": "Specialty Shops", "href": "/speciality-shops.htm"},
+      {"label": "Things To Do", "href": "/things-to-do.htm"},
+      {"label": "Day Trips", "href": "/day-trips.htm"},
+      {"label": "Veteran Services", "href": "/veterans-services.htm"},
+      {"label": "Contact", "href": "/contact-us.htm"}
+    ],
+    "nav_note": "Nav items are image buttons (index_htm_files/30357-30367.png top, 48366-48375.png footer) with rollover image states. Footer nav order differs slightly (Specialty Shops before Things To Do before Restaurants; no Day Trips).",
+    "header": {
+      "background_image": "https://www.bransonlocalbusinesses.com/index_htm_files/62304@2x.png",
+      "inner_page_title": "BRANSON LOCAL BUSINESSES",
+      "home_title": "WE BRING BRANSON BUSINESS TO ONE PLACE"
+    },
+    "slider": {
+      "description": "Header image slider (Xara mxslider widget) shown on every page; 5000ms interval, 2000ms transitions, 7 image slides.",
+      "images": [
+        {"local": "/legacy/slider-1.png", "source": "https://www.bransonlocalbusinesses.com/index_htm_files/62312@2x.png"},
+        {"local": "/legacy/slider-2.jpg", "source": "https://www.bransonlocalbusinesses.com/index_htm_files/62311@2x.jpg"},
+        {"local": "/legacy/slider-3.jpg", "source": "https://www.bransonlocalbusinesses.com/index_htm_files/62310@2x.jpg"},
+        {"local": "/legacy/slider-4.png", "source": "https://www.bransonlocalbusinesses.com/index_htm_files/62309@2x.png"},
+        {"local": "/legacy/slider-5.jpg", "source": "https://www.bransonlocalbusinesses.com/index_htm_files/62308@2x.jpg"},
+        {"local": "/legacy/slider-6.jpg", "source": "https://www.bransonlocalbusinesses.com/index_htm_files/62307@2x.jpg"},
+        {"local": "/legacy/slider-7.jpg", "source": "https://www.bransonlocalbusinesses.com/index_htm_files/62306@2x.jpg"}
+      ]
+    },
+    "footer": {
+      "copyright": "© 2024 All Rights Reserved | WebDebSites",
+      "credit_link": "https://webdebsites.com/",
+      "call": "CALL 816-419-0957",
+      "review_cta": "LEAVE A REVIEW!",
+      "footer_logo_image": ["https://www.bransonlocalbusinesses.com/index_htm_files/39995@2x.png (home)", "https://www.bransonlocalbusinesses.com/index_htm_files/40225.png (inner pages)"],
+      "hit_counter": "POWr hit counter iframe https://www.powr.io/hit-counter/u/2eb28706_1571141829"
+    },
+    "structured_data": {"@context": "http://schema.org", "@type": "LocalBusiness", "name": "Branson Local Businesses", "image": "https://bransonlocalbusinesses.com/index_htm_files/3.jpg", "telephone": "8164190957", "url": "https://bransonlocalbusinesses.com/"},
+    "analytics": "Google Analytics 4 gtag G-HDH80H2XBJ (loaded twice on most pages)"
+  },
+  "pages": {
+    "/": {
+      "title": "Branson Local Businesses | Branson, Missouri | Branson Business Directory",
+      "meta_description": "Branson Local Businesses is designed to help Local Businesses keep Branson going strong, and to help the local people! This website will help you with the best local places to Shop in Branson, Dine, Where to stay in Branson, Entertainment in Branson and much more! All by locally owned businessees and surrounding areas. Thank you for supporting the local businesses in Branson Missouri!",
+      "meta_keywords": "Branson Missouri, Branson Fishing, Branson Fish Adventures, Local Branson Businesses, Branson Local Businesses, that hippies house, mulberry mill, the secret garden, the duttons, the branson auction, branson venues, branson weddings, branson boating, boating in branson, venues in branson, advertise in branson, hotels in branson, shopping in branson, things to do in branson, restaurants in branson, vveteran services in branson",
+      "headings": ["WE BRING BRANSON BUSINESS TO ONE PLACE", "LOCAL BUSINESSES KEEP BRANSON GOING STRONG", "ADVERTISE WITH US!", "FISHING / BOATING", "WEDDING", "VENUES"],
+      "hero_slogans": ["WE BRING BRANSON BUSINESS TO ONE PLACE", "LOCAL BUSINESSES KEEP BRANSON GOING STRONG"],
+      "intro": "Branson Local Businesses is designed to help Local Businesses keep Branson going strong, and to help the local people! This website will help you with the best local places to Shop in Branson, Dine, Where to stay in Branson, Entertainment in Branson and much more! All by locally owned businessees and surrounding areas. Thank you for supporting the local businesses in Branson Missouri!",
+      "featured_section": "14 featured business cards in a 4-column grid (logo linked to website, headline, blurb, Facebook icon). See businesses.json featured=true.",
+      "advertise_section": {
+        "heading": "ADVERTISE WITH US!",
+        "tiles": [
+          {"label": "FISHING / BOATING", "image": "https://www.bransonlocalbusinesses.com/index_htm_files/56809.jpg", "alt": "Advertise Branson Fishing & Boating", "link": null, "businesses": []},
+          {"label": "WEDDING", "image": "https://www.bransonlocalbusinesses.com/index_htm_files/56810.jpg", "alt": "Advertise your Branson Wedding Venue", "link": null, "businesses": []},
+          {"label": "VENUES", "image": "https://www.bransonlocalbusinesses.com/index_htm_files/56811.jpg", "alt": "Advertise your Branson Event Venue", "link": null, "businesses": []}
+        ],
+        "note": "Fishing/Boating and Wedding/Venues are placeholder 'advertise here' tiles only; no businesses are listed in them and the tiles are not linked."
+      },
+      "links_of_note": ["https://www.facebook.com/ThatHippiesHouse/ (attached to the Branson Duck Tours logo, apparently by mistake)"]
+    },
+    "/advertise.htm": {
+      "title": "Advertise Your Business | Branson, Missouri | Branson Local Businesses",
+      "meta_description": "Helping people going to Branson, MO and surrounding areas to know where the local businesses are located. Support Local Businesses.",
+      "meta_keywords": "advertise, advertise your business, Branson, Branson Local Businesses, Branson Local Business, Branson Business, Branson Area, Local Business, Local Businesses,",
+      "headings": ["ADVERTISEMENT PRICE LIST"],
+      "intro": "Thank you for taking the time to look at my web site and my advertising prices. You will see it is very well priced. As you know you can get on the web site anywhere, anytime and I'm on the first page helping people going to Branson to support the Local Businesses. Our goal is to help people going to Branson and surrounding area to know where the local businesses are located.",
+      "payment_terms": "Payment is for ONE YEAR, Month _____________ Day ____________ Year _________",
+      "pricing": [
+        {"item": "Header on FRONT page", "price_usd": 200, "term": "1 year", "text": "A Header on FRONT page is $200 for a year"},
+        {"item": "Banner on the FRONT page", "price_usd": 125, "term": "1 year", "text": "A Banner on the FRONT page is $125 for a year"},
+        {"item": "Listing with picture of your business", "price_usd": 50, "term": "1 year", "text": "If you would like to put a picture of your business with your listing it will cost you only $50 a year"},
+        {"item": "Inside page with a Banner", "price_usd": 75, "term": "1 year", "text": "An Inside page with a Banner is only $75 for a year"},
+        {"item": "Listing on a page", "price_usd": 35, "term": "1 year", "text": "Just putting your listing on a page will be $35 for a year"}
+      ],
+      "pricing_note": "ALL ADVERTISING OPTIONS WILL LINK TO YOUR WEBSITE IF YOU HAVE ONE",
+      "cta": {"image": "https://www.bransonlocalbusinesses.com/index_htm_files/57272.png", "alt": "CONTACT US ABOUT ADVERTISING", "href": "/contact-us.htm"},
+      "sample_ads": [
+        {"image": "57119.jpg", "alt": null, "href": "https://www.downtownbransoncafe.com/", "business": "branson-cafe"},
+        {"image": "57100.jpg", "alt": "Ozark Mountian Pizza", "href": "https://ozarkmtpizza.com/", "business": "ozark-mountain-pizza"},
+        {"image": "11704.png", "alt": null, "href": "https://www.facebook.com/mygourmetbouquet", "business": "gourmet-bouquet", "note": "FB icon only"},
+        {"image": "40081.png", "alt": null, "href": "https://www.gettinbasted.com/", "business": "gettin-basted", "text": "OZARK STYLE BBQ / 50+ GRAND CHAMPIONSHIPS & COUNTING / #GETTINBASTED", "facebook": "https://www.facebook.com/gettinbasted"},
+        {"image": "57128.jpg", "alt": null, "href": "https://www.dspourhouse.com/", "business": "downing-street-pourhouse"},
+        {"image": "57290.png", "alt": "An American smoke and fire interpertation of the classic English Pub.", "href": null, "business": "downing-street-pourhouse", "buttons": [{"alt": "VISIT WEBSITE", "href": "https://www.dspourhouse.com/"}, {"alt": "FACEBOOK PAGE", "href": "https://www.facebook.com/downingstreetpourhouse"}]},
+        {"image": "57084.jpg", "alt": "Ozark Mountian Pizza", "href": "https://ozarkmtpizza.com/", "business": "ozark-mountain-pizza", "facebook": "https://www.facebook.com/OzarkMountainPizza/"},
+        {"image": "40052.png", "alt": "Dick's 5 & 10", "href": "https://www.dicks5and10.com/", "business": "dicks-5-and-10", "facebook": "https://www.facebook.com/dicks5and10"},
+        {"image": "57070.jpg", "alt": "Secret Garden Boutique", "href": "https://www.secretgardenbranson.com/", "business": "secret-garden"},
+        {"image": "40125.png", "alt": null, "href": "https://www.sevenarrowstaproom.com/", "business": "seven-arrows-taproom", "text": "local craft beer / Seven Arrows Taproom is the newest spot at the Branson Landing. 32 drafts of ALL Local Craft Beer.", "facebook": "https://www.facebook.com/sevenarrowstaproombranson"},
+        {"image": "57075.jpg", "alt": "The Branson Auction", "href": "https://bransonauction.com/", "business": "branson-auction"},
+        {"image": "44499.png", "alt": "October 18 & 19, 2024", "href": "https://bransonauction.com/", "business": "branson-auction"},
+        {"image": "57071.jpg", "alt": "Branson Knights, LLC", "href": "https://www.bransonknights.com/", "business": "branson-knights"},
+        {"image": "40227.png", "alt": null, "href": "http://rosebudinn.com/", "business": "rosebud-inn"},
+        {"image": "57073.jpg", "alt": "Mulberry Mill", "href": "http://mulberrymill.com/", "business": "mulberry-mill"},
+        {"image": "57264.jpg", "alt": null, "href": "https://www.legendsinconcert.com/branson", "business": "legends-in-concert"},
+        {"image": "62628.png", "alt": null, "href": null, "business": "high-platinum-dancewear-boutique", "note": "verified visually: High Platinum Dancewear Boutique banner, 'Home of Rhine-Stone Board & Sew Cute'"}
+      ],
+      "image_text_needed": [
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57119.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57100.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57084.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57128.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57290.png",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57070.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57075.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57071.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/40227.png",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57073.jpg",
+        "https://www.bransonlocalbusinesses.com/index_htm_files/57264.jpg"
+      ],
+      "image_text_note": "Pricing/packages are real HTML text (captured above), not images. The sample-ad banners may carry business taglines/offers worth transcribing."
+    },
+    "/hotels.htm": {
+      "title": "Hotels & Where To Stay | Branson, Missouri | Branson Local Businesses",
+      "meta_description": "Discover the best hotels in Branson, Missouri for a comfortable and memorable stay. Book now and enjoy great amenities and convenient locations.",
+      "meta_keywords": "Rosebud Inn, The Duttons Inn, The Branson Hotel, Best Western Center Pointe Inn, Best Western Music Capital Inn, Comfort Inn & Suites Branson Meadows, Comfort Inn at Thousand Hills, Holiday Inn Express – Green Mtn. Drive, Quality Inn West, Hunter's Friend Resort, Table Rock Sunset Condos, Rockwood Resort Condo's, Camden Hotel & Conference Center, Lilley's Landing Resort & Marina, Branson Shenanigans RV Park and Campground, Branson Knights, LLC | Luxury Pointe Nightly Rentals",
+      "headings": ["HOTELS & WHERE TO STAY IN BRANSON, MISSOURI"],
+      "intro": null,
+      "layout": "20 rows: photo (351x233) left, name + long description right, VISIT WEBSITE + DIRECTIONS (Google Maps) image buttons, divider line between rows.",
+      "listing_count": 20,
+      "image_alts": {"57381.jpg": "Best Western Center Pointe Inn", "57385.jpg": "Branson Western Music Capital Inn", "57388.jpg": "Comfort Inn & Suites Branson Meadows", "57391.jpg": "Comfort Inn at Thousand Hills", "57393.jpg": "Holiday Inn Express Green Mtn. Drive", "57396.jpg": "Quality Inn West", "57346.jpg": "Rosebud Inn", "57348.jpg": "The Duttons Inn", "57350.jpg": "The Branson Hotel", "57358.jpg": "Hunters Friend Resort", "57362.jpg": "Table Rock Sunset Condos", "57366.jpg": "Rockwood Resort Condo's", "58574.png": "Camden Hotel and Conference Center", "57373.jpg": "Lilley's Landing Resort & Marina", "57376.jpg": "Branson Shenanigans RV Park and Campground", "57397.jpg": "Branson Knights LLC | Luxury Pointe Nightly Rentals", "57403.jpg": "Branson Knights LLC | Luxury Pointe Nightly Rentals (actually Lynina Inn)", "57408.jpg": null, "62735.png": "Branson Knights LLC | Luxury Pointe Nightly Rentals (actually The Retro Hotel)", "62740.jpg": "Branson Knights LLC | Luxury Pointe Nightly Rentals (actually Gobblers Mountain Getaway)"},
+      "image_text_needed": ["https://www.bransonlocalbusinesses.com/index_htm_files/57400.jpg", "https://www.bransonlocalbusinesses.com/index_htm_files/57401.jpg"],
+      "image_text_note": "57400/57401 are small strip images under the Branson Knights photo (likely award badges)."
+    },
+    "/hotels-in-branson.htm": {
+      "title": "Branson Local Businesses | Shows & Attractions in Branson, Missouri",
+      "meta_description": "Branson Local Businesses is a website designed to help Local Businesses keep Branson going strong, and to help the local people! This website will help you with the best local places to Shop, Dine, Where to stay, Entertainment and much more! All by locally owned businessees and surrounding areas. Thank you for supporting the local businesses!",
+      "meta_keywords": "Branson, Branson Local Businesses, BLB, Shepherd' Adventure Park, Dicks 5 & 10, Ozark Mountain Pizza, Fishing in Branson, Boating in Branson, Weddings in Branson, Venues in Branson, Advertise With Us,",
+      "headings": ["HOTELS IN BRANSON"],
+      "intro": null,
+      "note": "Older/orphan duplicate of hotels.htm (not in nav) with 6 of the same listings: Rosebud Inn, The Duttons Inn, The Branson Hotel, Hunter's Friend Resort, Table Rock Sunset Condos, Rockwood Resort Condo's. Image alts are stale ('Grand Oaks Hotel Indoor Swimming Pool Area', 'The Clarion Hotel and Conference Center...'); Duttons Inn VISIT WEBSITE points to a Clarion choicehotels.com page.",
+      "listing_count": 6
+    },
+    "/shows-in-branson.htm": {
+      "title": "Shows | Branson, Missouri | Branson Local Businesses",
+      "meta_description": "Get ready for an unforgettable experience! Click here to buy tickets to over 100 shows in Branson, Missouri and make your trip a memorable one.",
+      "meta_keywords": "Variety Show, Amazing Acrobats of Shanghai, The Haygoods, Amazing Pets, Branson Country USA - Friday Night Late Show, Comedy Jamboree, Dailey & Vincent, Dolly Parton's Stampede, Down Home Country Morning Show, Folk Music Hour, George Jones, Haggard & Friends, Grand Jubilee, Hank Williams Revisited, JESUS, Jimmy Fortune, Neal McCoy, Legends in Concert, Old Time Rock & Roll, New South Gospel, Ozarks Country, Ozarks Gospel, The Oak Ridge Boys, Six,",
+      "headings": ["SHOWS IN BRANSON, MISSOURI"],
+      "intro": null,
+      "ticket_cta": {"label": "CLICK HERE TO BUY TICKETS TO OVER 100 SHOWS IN BRANSON, MO", "url": "https://bransonlocalbusinesses.i.travel/shows/"},
+      "listing_count": 17
+    },
+    "/branson-shops.htm": {
+      "title": "Shops | Branson, Missouri | Branson Local Businesses",
+      "meta_description": "Shopping in Branson, MO",
+      "meta_keywords": "Secret Garden, On the Ball Sports, HEY Dad, Dicks 5 & 10, Mulberry Mill, Lori's Soap Market, The Crystal Fish, Kringle's Christmas Shop, Reflections Art Gallery, Ozark Mountian Craft Mall, Branson Local Businesses",
+      "headings": ["SHOPPING IN BRANSON, MISSOURI"],
+      "intro": null,
+      "listing_count": 10
+    },
+    "/speciality-shops.htm": {
+      "title": "Specialty Shops | Branson, Missouri | Branson Local Businesses",
+      "meta_description": "Discover a wide selection of specialty shops in Branson offering unique products and gifts. Find the perfect item to take home as a souvenir or gift for a loved one.",
+      "meta_keywords": "specialty shops, the Copper Coin, Don't 4 Get About Me, Kilwins Branson, Kilwins, Gourmet Bouqet, Concrete Creations, Branson Petal Pushers, Gibson's Golf Works, John A. Moore, That Hippies House",
+      "headings": ["SPECIALITY SHOPS IN BRANSON, MISSOURI"],
+      "intro": null,
+      "listing_count": 27
+    },
+    "/things-to-do.htm": {
+      "title": "Things to Do in Branson, Missouri - Buy Tickets to Over 30 Attractions",
+      "meta_description": "Discover the best things to do in Branson, Missouri. Click here to buy tickets and experience over 30 exciting attractions in the heart of the Ozarks.",
+      "meta_keywords": "WonderWorks, Beyond the Lense, Family Fun Branson, Butterfly Palace, The Branson Ferris Wheel, Hollywood Wax Museum, Fritz's Adventure, Things to do, Branson MO, Mount Pleasant Winery, Titanic Museum, Worlds Largest Toy Museum, The Track Family Fun Parks, Lilley's Landing Resort & Marina, Escape Code, The Axe Game, Sagas Mystery Events, District 9 Paintball, Branson Board Game Cafe, Mrs. Branda's Old Time Photo",
+      "headings": ["THINGS TO DO IN BRANSON"],
+      "intro": null,
+      "ticket_cta": {"label": "CLICK HERE TO BUY TICKETS TO OVER 30 ATTRACTIONS IN BRANSON, MO", "url": "https://bransonlocalbusinesses.i.travel/attractions/"},
+      "layout": "Rows: name + long description on the left, address/phone card + VISIT WEBSITE + Facebook on the right.",
+      "listing_count": 19,
+      "youtube": "https://www.youtube.com/watch?v=9LEcS1KAUO8"
+    },
+    "/restaurants.htm": {
+      "title": "Best Restaurants in Branson, Missouri | Where to Eat and Dine",
+      "meta_description": "Discover the top-rated restaurants in Branson, Missouri. From casual eateries to fine dining, find the perfect place to enjoy a memorable meal in this charming city.",
+      "meta_keywords": "Starvin Marvins, Grandmas Cafe, Billy Bobs Diner, Cake -n- Cream 50's Diner, Mel's Hard Luck Diner, Scooters Sports Grill, Shepherd's Mill Restaurant & Bakery, Ozark Mountain Pizza, Little Hacienda Mexican Restaurant, Grand Country Buffet, Oscar's Famous Ribs, Getting Basted BBQ, Mr. G's Chicago Pizza & Pub, Branson Cafe, Floating Cafe, Steamy Joe Cafe, Craigs Cheeky Monkey Bar, Cheeky Monkey, Monkey Bar, The Bean Counter, Missouri Ridge Distillery, The Rogue Chef, Sweet Susie's, Sips Branson",
+      "headings": ["RESTAURANTS IN BRANSON, MISSOURI"],
+      "intro": null,
+      "layout": "3-column grid of text cards: name, address/city/phone, VISIT WEBSITE image button, Facebook icon. No logos.",
+      "listing_count": 53
+    },
+    "/veterans-services.htm": {
+      "title": "Find the Best Veteran Services in Branson, Missouri | Veterans Support in Branson, MO",
+      "meta_description": "Discover a wide range of veteran services in Branson, Missouri, tailored to meet the unique needs of veterans. Get the support you deserve today.",
+      "meta_keywords": "Veterans, Veteran Services, Veterans Services, Branson Veterans Events & Reunions, Branson Veterans Task Force, Disabled American Veterans, Vietnam Veterans of America, Ozark Mountian Blue Star Mothers, Gathering Plus, POW Network, Veterans Memorial Museum, Veterans and Military Coalition of the Ozarks (VMCO)",
+      "headings": ["VETERANS SERVICES IN BRANSON, MISSOURI"],
+      "intro": null,
+      "copy_note": "No intro/body copy beyond the heading and the 6 listing cards. No images other than header slider, nav and FB icons.",
+      "listing_count": 6,
+      "image_text_needed": []
+    },
+    "/day-trips.htm": {
+      "title": "Day Trips | Branson, Missouri | Branson Local Businesses",
+      "meta_description": "Looking for a great day trip or a place to spend the night? Eureka Springs, Arkansas is just 50 minutes from Branson. Check out all that Eureka Springs has to offer, Eureka Springs is a city in the Ozark Mountains of northwest Arkansas. It's known for the preserved Victorian buildings of its Historic District, such as the Palace Bath House, Basin Park Hotel and Crescent Hotel, all built around the city's natural springs.",
+      "meta_keywords": "Branson Local Businesses, Branson Missouri, Day Trips, Branson Day Trip, Eureka Springs, Eureka Springs Day Trip, You Wild Wood, Local Tub Bath & Body Micro Pub, Sweet Fudge Kitchen, PackRats Paradise, Tummy Ticklers Kitchen Shop, Riverview Resort & Country Store",
+      "headings": ["DAY TRIPS"],
+      "intro": "Looking for a great day trip or a place to spend the night? Eureka Springs, Arkansas is just 50 minutes from Branson. Check out all that Eureka Springs has to offer, Eureka Springs is a city in the Ozark Mountains of northwest Arkansas. It's known for the preserved Victorian buildings of its Historic District, such as the Palace Bath House, Basin Park Hotel and Crescent Hotel, all built around the city's natural springs.",
+      "listing_count": 8
+    },
+    "/contact-us.htm": {
+      "title": "Contact Branson Local Businesses - Get in Touch and Grow Your Business",
+      "meta_description": "Have questions or want to promote your Branson business? Fill out the form below and our team will contact you soon. Let's work together to drive growth and success.",
+      "meta_keywords": "Branson Local Businesses, Contact Us, represent your business,",
+      "headings": ["CONTACT BRANSON LOCAL BUSINESSES"],
+      "intro": "If you have questions or if your would like your Branson business represented please tap the box below and fill out the short form and we will get back to you as soon as possible!",
+      "other_text": ["Fill out my online form.", "Call Us:", "ADVERTISE WITH US"],
+      "phone": "816-419-0957",
+      "form": {
+        "provider": "Wufoo (embedded via https://secure.wufoo.com/scripts/embed/form.js, autoResize, height 759)",
+        "wufoo_user": "bransonlocalbusinesses",
+        "form_hash": "z1unxxf31snjjlj",
+        "fallback_url": "https://bransonlocalbusinesses.wufoo.com/forms/z1unxxf31snjjlj",
+        "form_title": "Contact Us",
+        "spam_protection": "reCAPTCHA Enterprise + honeypot field ('Do Not Fill This Out')",
+        "fields": [
+          {"label": "Name", "type": "text (First, Last)", "required": "unknown"},
+          {"label": "Email", "type": "email", "required": "unknown"},
+          {"label": "What type of business do you have?", "type": "text", "required": "unknown"},
+          {"label": "Website link, if you have one", "type": "url", "required": false},
+          {"label": "Place of Listing", "type": "select", "options": ["Home Page", "Category Page"]},
+          {"label": "Type of Listing", "type": "select", "options": ["Text Listing", "Full Page Banner"]},
+          {"label": "Comments", "type": "textarea", "required": "unknown"}
+        ],
+        "note": "Field list read from the public Wufoo form page; required flags not determinable from the fetch."
+      },
+      "email": null
+    },
+    "/contact-ut.htm": {
+      "title": "Branson Local Businesses | Shows & Attractions in Branson, Missouri",
+      "meta_description": "Branson Local Businesses is a website designed to help Local Businesses keep Branson going strong, and to help the local people! This website will help you with the best local places to Shop, Dine, Where to stay, Entertainment and much more! All by locally owned businessees and surrounding areas. Thank you for supporting the local businesses!",
+      "meta_keywords": "Branson, Branson Local Businesses, BLB, Shepherd' Adventure Park, Dicks 5 & 10, Ozark Mountain Pizza, Fishing in Branson, Boating in Branson, Weddings in Branson, Venues in Branson, Advertise With Us,",
+      "headings": ["BRANSON LOCAL BUSINESSES"],
+      "intro": null,
+      "note": "Effectively empty/orphan stub page: only the site title text, a decorative 1600x15 strip image (index_htm_files/58186.jpg) and the POWr hit counter. No listings, form, or copy.",
+      "listing_count": 0
+    }
+  }
+}
