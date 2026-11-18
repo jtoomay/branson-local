@@ -19,7 +19,7 @@ export const site = {
     instagram: "https://www.instagram.com/bransonlocalbusinesses/",
   },
   gaId: "G-HDH80H2XBJ",
-  credit: { label: "WebDebSites", url: "https://webdebsites.com/" },
+  credit: { label: "Toomay LLC" },
   defaultTitle: "Branson Local Businesses | Branson, Missouri Business Directory",
   titleTemplate: "%s | Branson Local Businesses",
   description:

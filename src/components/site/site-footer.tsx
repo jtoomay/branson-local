@@ -109,10 +109,7 @@ export async function SiteFooter() {
             © {year} {site.name}
           </p>
           <p>
-            Site by{" "}
-            <a href={site.credit.url} target="_blank" rel="noopener" className="link-underline text-white">
-              {site.credit.label}
-            </a>
+            Site by <span className="text-white">{site.credit.label}</span>
           </p>
         </div>
       </div>

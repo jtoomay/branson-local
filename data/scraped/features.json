@@ -23,6 +23,6 @@
   {"feature": "Schema.org LocalBusiness JSON-LD", "description": "Structured data naming Branson Local Businesses, telephone 8164190957, url and image.", "pages": ["/"]},
   {"feature": "Per-page SEO meta", "description": "Unique title, meta description and keyword lists per page.", "pages": ["all pages"]},
   {"feature": "Scroll/entrance animations", "description": "Xara element animations hide listing blocks until in view (visibility toggled on scroll).", "pages": ["/restaurants.htm", "/things-to-do.htm", "/hotels.htm", "others"]},
-  {"feature": "Designer credit footer", "description": "'© 2024 All Rights Reserved | WebDebSites' linking to https://webdebsites.com/.", "pages": ["all pages"]},
+  {"feature": "Designer credit footer", "description": "Footer credit: 'Site by Toomay LLC'.", "pages": ["all pages"]},
   {"feature": "Orphan/duplicate pages", "description": "/hotels-in-branson.htm (older 6-hotel duplicate) and /contact-ut.htm (empty stub) are in the sitemap but not in nav.", "pages": ["/hotels-in-branson.htm", "/contact-ut.htm"]}
 ]
